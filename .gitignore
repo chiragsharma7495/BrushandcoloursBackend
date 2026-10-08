@@ -1,0 +1,64 @@
+# Gradle generated files
+.gradle/
+build/
+out/
+bin/
+
+# Gradle wrapper
+!gradle/wrapper/gradle-wrapper.jar
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+.run/
+
+# Eclipse / Spring Tool Suite
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+.apt_generated/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Local application configurations containing secrets
+src/main/resources/application-local.properties
+src/main/resources/application-secrets.properties
+
+# Credentials and private keys
+*.pem
+*.key
+*.p12
+*.jks
+*.keystore
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+hs_err_pid*
+
+# Operating system files
+.DS_Store
+Thumbs.db
